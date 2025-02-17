@@ -1,0 +1,33 @@
+{
+  "id": "6815a13a-b18f-421f-8fb9-9d6c9b1ddb64",
+  "name": "Advanced Comments and Reports",
+  "publisher": "Mcd",
+  "version": "1.0.0.10",
+  "runtime": "11.0",
+  "target": "Cloud",
+  "application": "24.0.0.0",
+  "platform": "25.0.0.0",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true,
+    "applyToDevExtension": false
+  },
+  "features": [
+    "NOIMPLICITWITH"
+  ],
+  "dependencies": [
+    {
+      "id": "24ed0a7b-9691-4a1a-8680-7f3c0ee66e67",
+      "name": "Q-Railing",
+      "version": "1.0.0.3",
+      "publisher": "Mcd"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50700,
+      "to": 50800
+    }
+  ]
+}

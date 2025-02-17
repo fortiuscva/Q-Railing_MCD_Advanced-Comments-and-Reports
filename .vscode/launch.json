@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Q-Railing Sandbox",
+            "request": "launch",
+            "type": "al",
+            "tenant": "433a8c8f-6e66-49fd-8278-50958dcdb010",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox-020925",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        },
+        {
+            "name": "Production",
+            "request": "launch",
+            "type": "al",
+            "tenant": "433a8c8f-6e66-49fd-8278-50958dcdb010",
+            "environmentType": "Production",
+            "environmentName": "Production",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
+    ]
+}
