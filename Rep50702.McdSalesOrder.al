@@ -712,7 +712,7 @@ report 50702 "Mcd Sales Order"
         CompanyInfo3: Record "Company Information";
         SalesSetup: Record "Sales & Receivables Setup";
         RespCenter: Record "Responsibility Center";
-        Language: Record Language;
+        LanguageGbl: Record Language;
         TempSalesTaxAmtLine: Record "Sales Tax Amount Line" temporary;
         TaxArea: Record "Tax Area";
         Cust: Record Customer;
