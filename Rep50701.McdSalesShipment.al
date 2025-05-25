@@ -742,7 +742,7 @@ report 50701 "Mcd-Sales Shipment"
         TempSalesShipmentLine: Record "Sales Shipment Line" temporary;
         TempSalesShipmentLineAsm: Record "Sales Shipment Line" temporary;
         RespCenter: Record "Responsibility Center";
-        Language: Record Language;
+        LanguageGbl: Record Language;
         TaxArea: Record "Tax Area";
         Cust: Record Customer;
         PostedAsmHeader: Record "Posted Assembly Header";
