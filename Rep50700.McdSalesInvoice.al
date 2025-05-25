@@ -997,7 +997,7 @@ report 50700 "Mcd Sales Invoice"
         TempSalesInvoiceLine: Record "Sales INvoice Line" temporary;
         TempSalesInvoiceLineAsm: Record "Sales Invoice Line" temporary;
         RespCenter: Record "Responsibility Center";
-        Language: Record Language;
+        LanguageGbl: Record Language;
         TempSalesTaxAmtLine: Record "Sales Tax Amount Line" temporary;
         TaxArea: Record "Tax Area";
         Cust: Record Customer;
