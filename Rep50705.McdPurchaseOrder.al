@@ -364,7 +364,7 @@ report 50705 "Mcd Purchase Order"
                                 Quantity := 0;
                             END;
                             AmountExclInvDisc := "Line Amount";
-                            // totallinewithTax := "Line Amount" + TaxAmount - "Inv. Discount Amount";
+                            totallinewithTax := "Line Amount" + TaxAmount - "Inv. Discount Amount";
                             IF Quantity = 0 THEN
                                 UnitPriceToPrint := 0 // so it won't print
                             ELSE
